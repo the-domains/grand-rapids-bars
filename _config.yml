@@ -1,28 +1,40 @@
-name: 'Grand Rapids Bars '
+layout_spectrum: 0.2071339
 favicon: null
-layout_spectrum: 0.3409732503350824
-typography_spectrum: 0.9916415957268327
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: 'Grand Rapids Bars '
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
+  brandStrength: 0.3302601666655391
+  lightness: 0.4987484
+  saturation: 0.491239
+  rhythmicContrast: 0.5012516
   brandColors:
     - '#9D2D3C'
     - '#DDE4DD'
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-  brandStrength: 0.33026016666553915
-  lightness: 0.6076926162932068
-  saturation: 0.58423818834126
-  rhythmicContrast: 0.8073193354066461
-purpose: []
+typography_spectrum: 0.1295369
